@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "14ff966e-ddff-4306-9799-b411e77c5919": {
+          "type": "swatch_colors",
+          "settings": {
+            "show_colors": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#333333",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "#733e3e",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "14ff966e-ddff-4306-9799-b411e77c5919",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "aa87d4d6-d21c-431b-aca5-97c6a6109007": {
+          "type": "content",
+          "settings": {
+            "title": "Materialer",
+            "content": "<p>Fremstillet af bomuldsblanding med stretch (94 % bomuldsstretch, 6 % spandex) for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
+            "page": ""
+          }
+        },
+        "4975fa06-d825-4049-912c-7002d9a334d7": {
+          "type": "content",
+          "settings": {
+            "title": "Størrelsesguide",
+            "content": "<p>Underbukserne er normale i størrelsen. Vi anbefaler derfor, at du vælger den størrelse, som du normalt bruger. Modellen er iklædt en str. M. <\/p>",
+            "page": ""
+          }
+        },
+        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f": {
+          "type": "content",
+          "settings": {
+            "title": "Vaskeanvisninger",
+            "content": "<p>- Vask sammen med mørkt tøj<br\/>- Skånsom vask, max. 40 °C.<br\/>- Tørretumbling anbefales ikke<br\/>- Stryg ved lav temperatur<\/p>",
+            "page": ""
+          }
+        },
+        "b0b242a2-1185-4264-9c23-c594f81ba84a": {
+          "type": "content",
+          "settings": {
+            "title": "Levering",
+            "content": "<p>Hos AJRcollection får du altid gratis levering. Standard leveringstid er 1-2 hverdage. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "aa87d4d6-d21c-431b-aca5-97c6a6109007",
+        "4975fa06-d825-4049-912c-7002d9a334d7",
+        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f",
+        "b0b242a2-1185-4264-9c23-c594f81ba84a"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "Se hele udvalget af farver",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "product-recommendations"
+  ]
+}

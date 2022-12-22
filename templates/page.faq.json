@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "6c75cd2b-74a8-4c9d-aebf-743690ca1f1d": {
+          "type": "question",
+          "settings": {
+            "title": "Hvis jeg ikke kan finde et bestemt produkt online, betyder det så, at det ikke længere er på lager?",
+            "answer": "<p>Hvis det produkt, du søger, ikke er online, anbefaler vi, at du enten tjekker vores hjemmeside regelmæssigt eller tilmelder dig vores nyhedsbrev for at være den første til at få besked om vores nye produkter.<\/p>"
+          }
+        },
+        "ebdf28d3-2489-4157-b9b4-1fb33b17ed99": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har lagt en ordre hos jer, men hvorfor har jeg ikke modtaget en ordrebekræftelse?",
+            "answer": "<p>Har du tjekket din spamindbakke? Hvis ikke, kan en stavefejl i din e-mailadresse være årsagen til, at du ikke har modtaget en ordrebekræftelse. Kontakt os venligst, hvis du vil være sikker på, at din ordre er blevet afgivet og behandlet.<\/p>"
+          }
+        },
+        "86fbae77-4ef0-4c52-b1f9-075067b5db98": {
+          "type": "question",
+          "settings": {
+            "title": "Hvornår bliver min ordre sendt?",
+            "answer": "<p>Når du har afgivet en ordre på vores hjemmeside, bliver den straks behandlet. Hvis du afgiver din bestilling om morgenen, vil den sandsynligvis blive afsendt samme dag, og du vil modtage en bekræftelse på afsendelsen pr. e-mail.<\/p><p>Bemærk venligst, at hvis du afgiver din bestilling fredag eftermiddag, vil pakken først blive sendt den følgende mandag.<\/p>"
+          }
+        },
+        "ab2f39f7-74bd-4180-a520-bb2af8f52774": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg ændre eller annullere min ordre?",
+            "answer": "<p>Hvis din ordre endnu ikke er afsendt, kan vi foretage ændringer for dig. Kontakt os så hurtigt som muligt på info@ajrcollection.com, så ændrer vi naturligvis din ordre, hvis den endnu ikke er afsendt.<\/p>"
+          }
+        },
+        "bb0668a5-49eb-4aaf-9d5f-729a0492978c": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har modtaget det forkerte produkt. Hvad skal jeg gøre?",
+            "answer": "<p>Hvis du uheldigvis har modtaget det forkerte produkt, så bedes du kontakte os hurtigst muligt. Så sørger vi for at betale returfragten, og vi prioriterer at få et nyt produkt sendt til dig uden forsinkelse.<\/p>"
+          }
+        },
+        "ba02f691-c3cd-4670-98f2-4ed5409736c3": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg ombytte min(e) vare(r)?",
+            "answer": "<p>Hos AJR tilbyder vi 30 dages fuld returret. Men vær opmærksom på, at vi ikke laver ombytninger (farver, størrelser osv.). Hvis du ønsker at ombytte dit produkt til en anden størrelse eller farve, så skal du returnere din uønskede vare og placere en ny ordre. Vi refunderer det fulde beløb for den returnerede vare, minus eventuelle forsendelsesomkostninger. Du skal betale for returfragten. Send din returordre direkte til vores adresse nedenfor. Husk at vedlægge den medfølgende følgeseddel i din returpakke.<\/p><p>Adresse: <em>AJRcollection, c\/o Anodyne, P.O. Pedersens Vej 9, 8200 Aarhus N, Danmark<\/em><\/p>"
+          }
+        },
+        "b9de079e-ea08-4170-ba5b-232ace30a382": {
+          "type": "question",
+          "settings": {
+            "title": "Hvor lang er returfristen?",
+            "answer": "<p>Du har 30 dage til at ændre mening fra den dag, du modtager din vare, ikke fra den dag, du har bestilt din ordre. Vi kan ikke tilbyde refusion eller ombytning af undertøjsprodukter, der er blevet brugt og returneret til os. <\/p>"
+          }
+        },
+        "5a7a9334-44f4-43c3-b802-8e3a87826374": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har returneret mit produkt. Hvornår kan jeg regne med at få mine penge tilbage?",
+            "answer": "<p>Hvis du er berettiget til tilbagebetaling i henhold til vores vilkår, refunderer vi dig den pris, du har betalt for produkterne, via den betalingsmetode, du har brugt til at betale. Du kan forvente at have dine penge tilbage indenfor 4-5 dage efter, at vi har modtaget din returpakke. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6c75cd2b-74a8-4c9d-aebf-743690ca1f1d",
+        "ebdf28d3-2489-4157-b9b4-1fb33b17ed99",
+        "86fbae77-4ef0-4c52-b1f9-075067b5db98",
+        "ab2f39f7-74bd-4180-a520-bb2af8f52774",
+        "bb0668a5-49eb-4aaf-9d5f-729a0492978c",
+        "ba02f691-c3cd-4670-98f2-4ed5409736c3",
+        "b9de079e-ea08-4170-ba5b-232ace30a382",
+        "5a7a9334-44f4-43c3-b802-8e3a87826374"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}
