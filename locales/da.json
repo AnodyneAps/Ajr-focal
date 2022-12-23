@@ -1,40 +1,40 @@
 {
   "general": {
     "meta": {
-      "page": ""
+       "page": "siden {{ page }}"
     },
     "label": {
-      "color": "",
-      "white": "",
-      "size": ""
+      "color": "Farv, Farve",
+      "white": "Hvid",
+      "size": "Størrelse"
     },
     "breadcrumb": {
-      "title": "",
-      "home": ""
+      "title": "Brødkrummer",
+      "home": "Forside"
     },
     "pagination": {
-      "previous_page": "",
-      "next_page": "",
-      "go_to_page": ""
+      "previous_page": "Forrige",
+      "next_page": "Næste",
+      "go_to_page": "Naviger til siden {{page}}"
     },
     "accessibility": {
-      "skip_to_content": "",
-      "close": "",
-      "previous": "",
-      "next": "",
-      "play_video": "",
-      "go_to_slide": "",
-      "delete": "",
-      "show_product": "",
-      "star_reviews_info": ""
+     "skip_to_content": "pring over til indhold",
+      "close": "Close",
+      "previous": "Forrige",
+      "next": "Næste",
+      "play_video": "Afspil video",
+      "go_to_slide": "Go to slide {{num}}",
+      "delete": "Slet",
+      "show_product": "Vis produkt {{title}}",
+      "star_reviews_info": "{{ rating_value }} ud af {{ rating_max }} stjerner"
     },
     "social": {
-      "facebook_share": "",
-      "pinterest_pin": "",
-      "twitter_tweet": "",
-      "email_share": "",
-      "email_label": "",
-      "follow_label": ""
+      "facebook_share": "Del på Facebook",
+      "pinterest_pin": "Pin på Pinterest",
+      "twitter_tweet": "Tweet videre på Twitter",
+      "email_share": "Del på e-mail",
+      "email_label": "E-mail",
+      "follow_label": "Følg os på {{ social_media }}"
     },
     "newsletter": {
       "email": "E-mail",
@@ -42,7 +42,7 @@
       "success": "Tak, du er nu tilmeldt vores nyhedsbrev"
     },
     "faq": {
-      "categories": ""
+      "categories": "Kategorier"
     },
     "onboarding": {
       "blog_post_category": "",
@@ -193,7 +193,7 @@
       "pre_order": "",
       "add_to_cart": "Tilføj til kurv",
       "sold_out": "Udsolgt",
-      "in_stock": "",
+      "in_stock": "På lager - klar til at blive sendt",
       "oversell_stock": "",
       "incoming_stock": "",
       "low_stock_with_quantity_count": {
@@ -432,6 +432,15 @@
       "title": "",
       "description": "",
       "back_to_home": ""
+    }
+  },
+  "shopify": {
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "På lager"
+        }
+      }
     }
   }
 }

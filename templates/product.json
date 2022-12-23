@@ -23,6 +23,12 @@
           "settings": {
           }
         },
+        "fdbdaf79-7d80-4fc6-b073-87f11cb6609e": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -38,6 +44,7 @@
         "14ff966e-ddff-4306-9799-b411e77c5919",
         "variant_picker",
         "quantity_selector",
+        "fdbdaf79-7d80-4fc6-b073-87f11cb6609e",
         "buy_buttons"
       ],
       "settings": {

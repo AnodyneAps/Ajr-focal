@@ -180,37 +180,37 @@
           "static-text-with-icons-0": {
             "type": "item",
             "settings": {
-              "icon": "picto-box",
+              "icon": "picto-fast-delivery",
               "custom_icon_width": 50,
-              "title": "Free shipping",
-              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+              "title": "Gratis levering",
+              "content": "<p>Altid gratis 1-2 dages levering.<\/p>"
             }
           },
           "static-text-with-icons-1": {
             "type": "item",
             "settings": {
-              "icon": "picto-phone",
+              "icon": "picto-return-box",
               "custom_icon_width": 50,
-              "title": "Customer service",
-              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+              "title": "30 dages returret",
+              "content": "<p>Hos AJR har du altid 30 dages fuld returret. <\/p>"
             }
           },
           "static-text-with-icons-2": {
             "type": "item",
             "settings": {
-              "icon": "picto-lock",
+              "icon": "picto-credit-card",
               "custom_icon_width": 50,
-              "title": "Secure payment",
-              "content": "<p>Your payment information is processed securely.<\/p>"
+              "title": "Sikker betaling",
+              "content": "<p>Hos AJR er du altid garanteret sikker betaling.<\/p>"
             }
           },
           "static-text-with-icons-3": {
             "type": "item",
             "settings": {
-              "icon": "picto-email",
+              "icon": "picto-customer-support",
               "custom_icon_width": 50,
-              "title": "Contact us",
-              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+              "title": "Kontakt os",
+              "content": "<p>info@ajrcollection.com eller +45 53 89 00 53.<\/p>"
             }
           }
         },
@@ -221,8 +221,8 @@
           "static-text-with-icons-3"
         ],
         "settings": {
-          "show_section": false,
-          "background": "rgba(0,0,0,0)",
+          "show_section": true,
+          "background": "#f5f5f5",
           "text_color": "rgba(0,0,0,0)"
         }
       },

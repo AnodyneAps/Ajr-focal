@@ -102,6 +102,57 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon_width": 50,
+            "title": "Gratis levering",
+            "content": "<p>Altid gratis 1-2 dages levering.<\/p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon_width": 50,
+            "title": "30 dages returret",
+            "content": "<p>Hos AJR har du altid 30 dages fuld returret. <\/p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Sikker betaling",
+            "content": "<p>Hos AJR er du altid garanteret sikker betaling.<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Kontakt os",
+            "content": "<p>info@ajrcollection.com eller +45 53 89 00 53. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -403,58 +454,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "custom_icon_width": 50,
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "custom_icon_width": 50,
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "custom_icon_width": 50,
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.<\/p>"
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-email",
-            "custom_icon_width": 50,
-            "title": "Contact us",
-            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
-      ],
-      "settings": {
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -475,6 +474,7 @@
     "a080eb2a-210b-4f11-a1e8-a29da9cf87a5",
     "slideshow",
     "featured-collections",
+    "text-with-icons",
     "image-with-text",
     "shop-the-look",
     "blog-posts",
@@ -483,7 +483,6 @@
     "testimonials",
     "timeline",
     "featured-product",
-    "text-with-icons",
     "newsletter"
   ]
 }
