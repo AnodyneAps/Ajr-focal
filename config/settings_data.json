@@ -51,7 +51,7 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "ALTID GRATIS LEVERING",
+              "text": "GRATIS LEVERING VED KØB OVER 299 KR.",
               "learn_more_text": "",
               "title": "",
               "content": "",
@@ -183,7 +183,7 @@
               "icon": "picto-fast-delivery",
               "custom_icon_width": 50,
               "title": "Gratis levering",
-              "content": "<p>Altid gratis 1-2 dages levering.<\/p>"
+              "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>"
             }
           },
           "static-text-with-icons-1": {

@@ -71,11 +71,11 @@
           "settings": {
           }
         },
-        "aa87d4d6-d21c-431b-aca5-97c6a6109007": {
+        "b0b242a2-1185-4264-9c23-c594f81ba84a": {
           "type": "content",
           "settings": {
-            "title": "Materialer",
-            "content": "<p>Fremstillet af bomuldsblanding med stretch (94 % bomuldsstretch, 6 % spandex) for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
+            "title": "Levering",
+            "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>",
             "page": ""
           }
         },
@@ -87,6 +87,14 @@
             "page": ""
           }
         },
+        "aa87d4d6-d21c-431b-aca5-97c6a6109007": {
+          "type": "content",
+          "settings": {
+            "title": "Materialer",
+            "content": "<p>Fremstillet af bomuldsblanding med stretch (94 % bomuldsstretch, 6 % spandex) for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
+            "page": ""
+          }
+        },
         "e36fee90-7f3f-43dc-8474-d5e56ab0c69f": {
           "type": "content",
           "settings": {
@@ -94,22 +102,14 @@
             "content": "<p>- Vask sammen med mørkt tøj<br\/>- Skånsom vask, max. 40 °C.<br\/>- Tørretumbling anbefales ikke<br\/>- Stryg ved lav temperatur<\/p>",
             "page": ""
           }
-        },
-        "b0b242a2-1185-4264-9c23-c594f81ba84a": {
-          "type": "content",
-          "settings": {
-            "title": "Levering",
-            "content": "<p>Hos AJRcollection får du altid gratis levering. Standard leveringstid er 1-2 hverdage. <\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "description",
-        "aa87d4d6-d21c-431b-aca5-97c6a6109007",
+        "b0b242a2-1185-4264-9c23-c594f81ba84a",
         "4975fa06-d825-4049-912c-7002d9a334d7",
-        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f",
-        "b0b242a2-1185-4264-9c23-c594f81ba84a"
+        "aa87d4d6-d21c-431b-aca5-97c6a6109007",
+        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f"
       ],
       "settings": {
       }
