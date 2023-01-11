@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "509fd546-ffcd-4c08-a3ec-a1e19375f9bb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.product.custom_description | metafield_tag }}<\/p>"
+          }
+        },
         "14ff966e-ddff-4306-9799-b411e77c5919": {
           "type": "swatch_colors",
           "settings": {
@@ -41,6 +47,7 @@
         }
       },
       "block_order": [
+        "509fd546-ffcd-4c08-a3ec-a1e19375f9bb",
         "14ff966e-ddff-4306-9799-b411e77c5919",
         "variant_picker",
         "quantity_selector",
