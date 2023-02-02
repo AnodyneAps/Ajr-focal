@@ -2,11 +2,14 @@
 {%- assign color_white_label = 'general.label.white' | t | downcase -%}
 {%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: product.id -%}
-{%- assign colors_block = section.blocks | where: 'type', 'colors' | first -%}
-{% capture productColorSwatches %}
-  {%- render 'product-color-swatches' with product: product -%}
-{% endcapture %}
-<div class="product-form">
+{%-liquid
+  assign colors_block = section.blocks | where: 'type', 'colors' | first
+  capture productColorSwatches
+  render 'product-color-swatches' with product:product
+  endcapture
+  -%}
+
+  <div class="product-form">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- comment -%}
@@ -16,6 +19,7 @@
       {%- endcomment -%}
       {%- when '@app' -%}
       {%- render block -%}
+
 
       {%- when 'swatch_colors' -%}
       {% if block.settings.show_colors %}
@@ -422,6 +426,41 @@
         </div>
       {%- endif -%}
 
+
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      PRODUCT USP ICONS
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'usp_icons' -%}
+      <div class="usp__wrapper">
+        <div class="usp__item">
+          <div class="icon__wrapper">
+            {%- if block.settings.custom_icon != blank -%}
+              {% capture custom_icon_width %}
+                {{ block.settings.custom_icon_width | times: 2 }}x{% endcapture %}
+              <img
+                class="icon__wrapper-custom-icon"
+                style="max-width: {{ block.settings.custom_icon_width }}px"
+                width="{{ block.settings.custom_icon.width }}"
+                height="{{ block.settings.custom_icon.height }}"
+                src="{{ block.settings.custom_icon | img_url: custom_icon_width }}"
+                alt="{{ block.settings.custom_icon.alt | escape }}">
+            {%- else -%}
+              {%- render 'icon' with block.settings.icon -%}
+            {%- endif -%}
+          </div>
+
+          {%- if block.settings.content != blank -%}
+            <div class="content__wrapper">
+              {%- if block.settings.content != blank -%}
+                {{- block.settings.content -}}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       INVENTORY
@@ -537,7 +576,16 @@
                   {{- 'product.form.sold_out' | t -}}
                 {%- endif -%}
               </button>
-
+              {% comment %}Product counter start {% endcomment %}
+              {% if section.settings.show_product_counter %}
+                <div class="product-counter-container">
+                  {%- if section.settings.product_counter_text != blank -%}
+                    {{ section.settings.product_counter_text }}
+                  {%- endif -%}
+                  <div id="product__counter"></div>
+                </div>
+              {% endif %}
+              {% comment %}Product counter end {% endcomment %}
               {%- if block.settings.show_payment_button and template.suffix != 'quick-buy-popover' -%}
                 {{ form | payment_button }}
 

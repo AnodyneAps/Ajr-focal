@@ -62,6 +62,7 @@ other resources, such as CSS or JS
     {%- assign error_background = settings.background | color_mix: settings.error_color, 93 -%}
     {%- assign product_custom_label_brightness = settings.product_custom_label_background | color_brightness -%}
     {%- assign product_custom_label_2_brightness = settings.product_custom_label_2_background | color_brightness -%}
+    {%- assign product_custom_label_3_brightness = settings.product_custom_label_3_background | color_brightness -%}
 
     --heading-color: {{ settings.heading_color.red }}, {{ settings.heading_color.green }}, {{ settings.heading_color.blue }};
     --text-color: {{ settings.text_color.red }}, {{ settings.text_color.green }}, {{ settings.text_color.blue }};
@@ -84,6 +85,8 @@ other resources, such as CSS or JS
     --product-custom-label-text-color: {% if product_custom_label_brightness < 150 %}255, 255, 255{% else %}0, 0, 0{% endif %};
     --product-custom-label-2-background: {{ settings.product_custom_label_2_background.red }}, {{ settings.product_custom_label_2_background.green }}, {{ settings.product_custom_label_2_background.blue }};
     --product-custom-label-2-text-color: {% if product_custom_label_2_brightness < 150 %}255, 255, 255{% else %}0, 0, 0{% endif %};
+    --product-custom-label-3-background: {{ settings.product_custom_label_3_background.red }}, {{ settings.product_custom_label_3_background.green }}, {{ settings.product_custom_label_3_background.blue }};
+    --product-custom-label-3-text-color: {% if product_custom_label_3_brightness < 150 %}255, 255, 255{% else %}0, 0, 0{% endif %};
     --product-low-stock-text-color: {{ settings.product_low_stock_text_color.red }}, {{ settings.product_low_stock_text_color.green }}, {{ settings.product_low_stock_text_color.blue }};
     --product-in-stock-text-color: {{ settings.product_in_stock_text_color.red }}, {{ settings.product_in_stock_text_color.green }}, {{ settings.product_in_stock_text_color.blue }};
     --loading-bar-background: {{ settings.text_color.red }}, {{ settings.text_color.green }}, {{ settings.text_color.blue }};
@@ -173,12 +176,13 @@ other resources, such as CSS or JS
     --vertical-breather: {% if settings.vertical_spacing == 'small' %}28px{% elsif settings.vertical_spacing == 'medium' %}36px{% else %}48px{% endif %};
     --vertical-breather-tight: {% if settings.vertical_spacing == 'small' %}28px{% elsif settings.vertical_spacing == 'medium' %}36px{% else %}48px{% endif %};
 
-     /* Shopify related variables */
+    /* Shopify related variables */
     --payment-terms-background-color: {{ settings.background }};
     --black: url({{ 'black.jpg' | asset_url }});
     --blackandwhite: url({{ 'blackwhite.jpg' | asset_url }});
     --gray: url({{ 'gray.jpg' | asset_url }});
     --mix: url({{ 'mix.jpg' | asset_url }});
+
   }
 
   @media screen and (min-width: 741px) {

@@ -1,105 +1,24 @@
 {
   "sections": {
-    "a080eb2a-210b-4f11-a1e8-a29da9cf87a5": {
-      "type": "hero-custom-video",
+    "0c631ef2-00cb-46f0-ab33-886ed57e7419": {
+      "type": "hero-custom-vedio",
       "settings": {
         "page_width": "full_width",
         "height": "large",
-        "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/1234\/8917\/files\/hero-video.mp4?v=1645612264",
+        "newvideo_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/41aca60a906e498d818a63885b569511.mp4",
         "show_overlay": true,
-        "image": "shopify:\/\/shop_images\/slide1-desktop.jpg",
+        "image": "shopify:\/\/shop_images\/Skaermbillede_2023-01-24_kl._09.45.30.png",
         "image_position": "center center",
         "video_title": "",
         "svg_selector": "vendor__name",
         "text_size": "medium",
-        "text_description": "<p>De mest komfortable og fleksible underbukser. Du vil ikke fortryde. Prøv dem nu!<\/p>",
+        "text_description": "<p>Prøv de mest komfortable og fleksible underbukser. Bestil et prøvepar for 0 kr. Du betaler kun fragten på 39 kr.<\/p>",
         "text_description_size": "medium",
-        "button_label": "Shop nu",
+        "button_label": "PRØV NU FOR KUN 39 KR",
         "button_link": "shopify:\/\/collections\/all",
         "second_button_label": "",
         "second_button_link": "",
         "show_scrolldown": false
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "all",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "De bedste underbukser",
-        "content": "",
-        "products_count": 8,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "text-with-icons": {
@@ -111,7 +30,7 @@
             "icon": "picto-fast-delivery",
             "custom_icon_width": 50,
             "title": "Gratis levering",
-            "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>"
+            "content": "<p>Altid gratis 1-2 dages levering.<\/p>"
           }
         },
         "item-2": {
@@ -149,8 +68,118 @@
         "item-4"
       ],
       "settings": {
+        "background": "#f7f7f7",
+        "text_color": "#282828"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "De bedste underbukser",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "972c85c1-f571-40f1-899c-d1e660f5cfc3": {
+      "type": "why-ajr",
+      "blocks": {
+        "d03da808-1d6b-43fe-a477-de36eac96338": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify:\/\/shop_images\/perfect-sport.png",
+            "custom_icon_width": 100,
+            "title": "BEHAGELIG OG FLEKSIBEL PASFORM",
+            "content": "<p>AJR-underbukser er fremstillet fleksibelt stof, der gør dem meget behagelige og fleksible at have på.<\/p>"
+          }
+        },
+        "0cd81bda-17b8-413f-b086-2799b3e32540": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify:\/\/shop_images\/Unique-flex.png",
+            "custom_icon_width": 100,
+            "title": "PERFEKT TIL BÅDE HVERDAG OG SPORT",
+            "content": "<p>Den ekstra benlængde gør dem gode at bruge til både hverdag og sport, fordi de ikke ruller op, når man bevæger sig.<\/p>"
+          }
+        },
+        "21d6e4aa-687d-43ce-83ea-337982fb58ea": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify:\/\/shop_images\/cotton.png",
+            "custom_icon_width": 100,
+            "title": "INGEN PROBLEMER MED OPRULNING",
+            "content": "<p>AJR-underbukser har ekstra benlængde, hvilket gør, at de ikke ruller op, når du bevæger dig.<\/p>"
+          }
+        },
+        "e1777fed-6a60-4a7f-8b10-81cfe7307358": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify:\/\/shop_images\/stof-design.png",
+            "custom_icon_width": 100,
+            "title": "SLIDSTÆRKE MATERIALER OG EKSTRA BLØD ELASTIK",
+            "content": "<p>Fremstillet i 94 % bomuldsstretch, og 6 % spandex for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d03da808-1d6b-43fe-a477-de36eac96338",
+        "0cd81bda-17b8-413f-b086-2799b3e32540",
+        "21d6e4aa-687d-43ce-83ea-337982fb58ea",
+        "e1777fed-6a60-4a7f-8b10-81cfe7307358"
+      ],
+      "settings": {
+        "threed_image": "shopify:\/\/shop_images\/3dmockupIn.png",
+        "subheading": "",
+        "title": "Hvorfor vælge AJR-underbukser?",
+        "content": "",
+        "left_icon_one": "shopify:\/\/shop_images\/perfect-sport.png",
+        "left_icon_one_title": "Behagelig og fleksibel pasform",
+        "left_icon_one_content": "<p>AJR-underbukser er fremstillet fleksibelt stof, der gør dem meget behagelige og fleksible at have på.<\/p>",
+        "left_icon_two": "shopify:\/\/shop_images\/Unique-flex.png",
+        "left_icon_two_title": "Perfekt til både hverdag og sport",
+        "left_icon_two_content": "<p>Den ekstra benlængde gør dem gode at bruge til både hverdag og sport, fordi de ikke ruller op, når man bevæger sig.<\/p>",
+        "right_icon_one": "shopify:\/\/shop_images\/cotton.png",
+        "right_icon_one_title": "Ingen problemer med oprulning",
+        "right_icon_one_content": "<p>AJR-underbukser har ekstra benlængde, hvilket gør, at de ikke ruller op, når du bevæger dig. <\/p>",
+        "right_icon_two": "shopify:\/\/shop_images\/stof-design.png",
+        "right_icon_two_title": "Slidstærke materialer og ekstra blød elastik",
+        "right_icon_two_content": "<p>Fremstillet i 94 % bomuldsstretch, og 6 % spandex for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
+        "threed_button_text": "Køb her",
+        "threed_button_link": "shopify:\/\/collections",
+        "background_type": "boxed",
+        "text_alignment": "right",
+        "right_text_alignment": "left",
+        "order_left": "order_right",
+        "order_right": "order_left",
+        "align_left": "align_right",
+        "align_right": "align_left",
         "background": "#f5f5f5",
-        "text_color": "rgba(0,0,0,0)"
+        "background_text_color": "#282828",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "#282828",
+        "button_background": "#f16622",
+        "button_text_color": "#ffffff"
       }
     },
     "image-with-text": {
@@ -159,172 +188,30 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/twi-ajr12.jpg",
-            "tab_label": "1",
+            "image": "shopify:\/\/shop_images\/image00029.jpg",
+            "tab_label": "Text 1",
             "subheading": "",
-            "title": "HAR DU PRØVET DEM?",
-            "content": "<p>De mest komfortable og fleksible underbukser. Du vil ikke fortryde. Prøv dem nu!<\/p>",
+            "title": "Har du prøvet dem?",
+            "content": "<p>De mest komfortable og fleksible underbukser. Du vil ikke fortryde. Prøv dem nu! <\/p>",
             "button_text": "Køb din 3-pak nu",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/twi-ajr1.jpg",
-            "tab_label": "2",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-            "button_text": "Read more",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify:\/\/products\/ajr-3-pack-box-color-mix"
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "item-1"
       ],
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "cycle_speed": 8,
-        "accent_background": "#de2a2a",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "#282828",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "disabled": true,
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ajr-look-dsk.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/ajr-look-mob.jpg",
-            "dot_type": "normal",
-            "product_1": "ajr-3-pak-underbukser-1",
-            "product_1_horizontal_position": 63,
-            "product_1_vertical_position": 17,
-            "product_1_horizontal_position_mobile": 30,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "ajr-3-pack-box-color-mix",
-            "product_2_horizontal_position": 46,
-            "product_2_vertical_position": 64,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "ajr-3-pack-box-gray",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 50,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "label": "Shop the looks"
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "blog": "",
-        "subheading": "Stay up-to-date",
-        "title": "Blog posts",
-        "articles_count": 3,
-        "stack_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image-with-text-block": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "Subheading",
-        "title": "Image with text block",
-        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_position": "left",
-        "text_alignment": "center",
-        "text_background": "rgba(0,0,0,0)",
+        "accent_background": "#eff9f4",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "layout": "collage",
-        "subheading": "Subheading",
-        "title": "Collection list",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
       }
     },
     "testimonials": {
@@ -334,122 +221,53 @@
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
+            "content": "Testimonial super title one",
+            "content_subtext": "Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store.",
+            "author": "John M.",
+            "author_image": "shopify:\/\/shop_images\/Billede13.jpg"
+          }
+        },
+        "3c056dd2-e1f3-478b-a29d-23006ec8b22f": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Testimonial super title two",
+            "content_subtext": "Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store.",
+            "author": "Smith q.",
+            "author_image": "shopify:\/\/shop_images\/8ED38D8F-DA08-4E05-8CD6-79D5250FCB29.jpg"
+          }
+        },
+        "c38b367c-5363-4961-88e1-7f77e427cb44": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Testimonial super title three",
+            "content_subtext": "Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size.",
+            "author": "Barak Anton w.",
+            "author_image": "shopify:\/\/shop_images\/Billede1_a80a7d63-1ff8-4437-b47c-c7c6236e9f72.jpg"
           }
         }
       },
       "block_order": [
-        "testimonial-1"
+        "testimonial-1",
+        "3c056dd2-e1f3-478b-a29d-23006ec8b22f",
+        "c38b367c-5363-4961-88e1-7f77e427cb44"
       ],
       "settings": {
         "reveal_on_scroll": true,
         "subheading": "",
         "title": "",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f5f5f5",
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "timeline": {
-      "type": "timeline",
+    "5c437ad2-db5c-4146-a312-1c6b82e9abe8": {
+      "type": "custom-html",
       "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "label": "2000",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2010",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2020",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
       "settings": {
-        "subheading": "Subheading",
-        "title": "Timeline",
-        "text_position": "middle",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "item_background": "rgba(0,0,0,0)",
-        "item_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "product": "",
-        "subheading": "Subheading",
-        "title": "Featured product",
-        "show_vendor": true,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": true,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide",
+        "subheading": "top heading",
+        "title": "Super seo heading",
+        "html": "<p style=\"text-align: center\">Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.Section size will adjust to the tallest content. Try to keep each testimonial a similar size.<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "boxed",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -459,7 +277,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/slide2-desktop.jpg",
-        "subheading": "TILMELD DIG VORES NYHEDSBREV",
+        "subheading": "Tilmeld dig vores nyhedsbrev",
         "content": "<p>Modtag løbende e-mails med nye produkter, aktuelle tilbud og konkurrencer. Indtast din e-mail nedenfor.<\/p>",
         "text_position": "right",
         "text_alignment": "left",
@@ -471,18 +289,13 @@
     }
   },
   "order": [
-    "a080eb2a-210b-4f11-a1e8-a29da9cf87a5",
-    "slideshow",
-    "featured-collections",
+    "0c631ef2-00cb-46f0-ab33-886ed57e7419",
     "text-with-icons",
+    "featured-collections",
+    "972c85c1-f571-40f1-899c-d1e660f5cfc3",
     "image-with-text",
-    "shop-the-look",
-    "blog-posts",
-    "image-with-text-block",
-    "collection-list",
     "testimonials",
-    "timeline",
-    "featured-product",
+    "5c437ad2-db5c-4146-a312-1c6b82e9abe8",
     "newsletter"
   ]
 }

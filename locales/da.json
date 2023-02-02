@@ -1,7 +1,7 @@
 {
   "general": {
     "meta": {
-       "page": "siden {{ page }}"
+      "page": "siden {{ page }}"
     },
     "label": {
       "color": "Farv, Farve",
@@ -18,7 +18,7 @@
       "go_to_page": "Naviger til siden {{page}}"
     },
     "accessibility": {
-     "skip_to_content": "pring over til indhold",
+      "skip_to_content": "pring over til indhold",
       "close": "Close",
       "previous": "Forrige",
       "next": "Næste",
@@ -85,7 +85,7 @@
       "title": "Kurv",
       "empty": "Din kurv er tom",
       "start_shopping": "Shop nu",
-      "free_shipping": "Gratis levering til pakkeshop",
+      "free_shipping": "Hurtig levering til pakkeshop",
       "free_shipping_remaining_html": "",
       "free": "",
       "no_more_stock": "",
@@ -439,6 +439,16 @@
       "availability": {
         "value": {
           "in_stock": "På lager"
+        }
+      }
+    },
+    "checkout": {
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Du modtager et par gratis underbukser (betal kun fragten). Herefter er du tilmeldt vores abonnementsløsning. Vi sender 3 par underbukser om 7 dage og igen hver 3. måned. Du betaler 299,- pr. 3-pak (ingen binding - du kan til enhver tid afmelde dig)"
+          },
+          "following_cycles": "- pr. 3-pak (ingen binding - du kan til enhver tid afmelde dig)"
         }
       }
     }

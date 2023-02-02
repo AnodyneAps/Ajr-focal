@@ -11,7 +11,6 @@
         "order_note": {
           "type": "order_note",
           "settings": {
-            "open_by_default": false
           }
         }
       },
@@ -20,16 +19,11 @@
         "order_note"
       ],
       "settings": {
-        "show_payment_methods": true,
-        "show_shipping_estimator": true,
-        "shipping_estimator_default_country": "Denmark",
-        "empty_button_link": "shopify:\/\/collections\/all"
       }
     },
     "cart-recommendations": {
       "type": "cart-recommendations",
       "settings": {
-        "title": "Måske kan du også lide"
       }
     }
   },

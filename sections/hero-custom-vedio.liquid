@@ -39,12 +39,12 @@
             </div>
           {%- endif -%}
           {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
-            <a href="{{ section.settings.button_link }}" class="button button--primary">
+            <a href="{{ section.settings.button_link }}" class="button hero__btn">
               {{ section.settings.button_label | escape }}
             </a>
           {%- endif -%}
           {%- if section.settings.second_button_label != blank and section.settings.second_button_link != blank -%}
-            <a href="{{ section.settings.second_button_link }}" class="button second_hero__btn">
+            <a href="{{ section.settings.second_button_link }}" class="button hero__btn second_hero__btn">
               {{ section.settings.second_button_label | escape }}
             </a>
           {%- endif -%}
@@ -72,7 +72,7 @@
 
 {% schema %}
   {
-    "name": "Hero Custom Video",
+    "name": "Hero Custom",
     "class": "index-section video-section index-section--flush",
     "settings": [
       {
@@ -248,7 +248,7 @@
     ],
     "presets": [
       {
-        "name": "Hero Custom Video",
+        "name": "Hero Custom",
         "category": "Video",
         "settings": {
           "image_position": "center center",

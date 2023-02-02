@@ -1,27 +1,30 @@
 {
   "current": {
+    "icon_stroke_width": 2,
     "button_border_radius": 0,
     "block_border_radius": "none",
     "heading_color": "#282828",
     "text_color": "#282828",
-    "secondary_background": "#f5f5f5",
-    "success_color": "#2e9e7b",
+    "secondary_background": "#eaeaea",
+    "success_color": "#4c8168",
     "error_color": "#de2a2a",
     "header_background": "#282828",
     "footer_background": "#282828",
     "footer_text_color": "#ffffff",
-    "primary_button_background": "#282828",
-    "secondary_button_background": "#282828",
+    "primary_button_background": "#4c8168",
+    "secondary_button_background": "#f16622",
     "secondary_button_text_color": "#ffffff",
-    "product_on_sale_accent": "#de2a2a",
-    "product_custom_label_background": "#405de6",
-    "product_custom_label_2_background": "#282828",
-    "product_in_stock_text_color": "#2e9e7b",
+    "product_on_sale_accent": "#f16622",
+    "product_sold_out_accent": "#f29571",
+    "product_custom_label_background": "#4c8168",
+    "product_custom_label_2_background": "#f16622",
+    "product_custom_label_3_background": "#292929",
+    "product_in_stock_text_color": "#45ce60",
     "product_low_stock_text_color": "#de2a2a",
-    "heading_font": "zurich_extended_n8",
+    "heading_font": "fjalla_one_n4",
     "heading_font_size": "medium",
     "heading_text_transform": "uppercase",
-    "text_font": "zurich_n4",
+    "text_font": "nunito_n4",
     "text_font_size": 15,
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
@@ -34,54 +37,38 @@
     "product_image_size": "natural",
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
-    "cart_free_shipping_threshold": "0",
     "social_facebook": "https:\/\/www.facebook.com\/Ajrcollectionn",
     "social_instagram": "https:\/\/www.instagram.com\/ajr.officiel\/",
-    "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/AJR_logo_dark_9cd984b6-8e52-469a-a724-0ca18ae349ba.png",
     "checkout_sidebar_background_color": "#f5f5f5",
     "checkout_accent_color": "#282828",
-    "checkout_button_color": "#282828",
+    "checkout_button_color": "#405de6",
     "checkout_error_color": "#de2a2a",
     "accent_color": "#405de6",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "message-1": {
+          "84a66898-6f13-468b-9b3d-f2582eab4702": {
             "type": "message",
             "settings": {
               "text": "GRATIS LEVERING VED KØB OVER 299 KR.",
-              "learn_more_text": "",
+              "learn_more_text": "Learn more",
               "title": "",
               "content": "",
-              "button_text": "Shop nu",
-              "button_link": "shopify:\/\/collections\/all"
-            }
-          },
-          "78514bdf-80f6-4745-95f8-a52bb849c8b3": {
-            "type": "message",
-            "disabled": true,
-            "settings": {
-              "text": "Announce something here",
-              "learn_more_text": "Learn more",
-              "title": "Have questions",
-              "content": "<p>All Product that orem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
-              "button_text": "FAQ",
-              "button_link": "shopify:\/\/pages\/main-faqs"
+              "button_text": "",
+              "button_link": ""
             }
           }
         },
         "block_order": [
-          "message-1",
-          "78514bdf-80f6-4745-95f8-a52bb849c8b3"
+          "84a66898-6f13-468b-9b3d-f2582eab4702"
         ],
         "settings": {
           "announcement_bar_position": "non_sticky",
           "announcement_text_size": "large",
           "autoplay": true,
           "cycle_speed": 5,
-          "background": "#405de6",
+          "background": "#4c8168",
           "text_color": "#ffffff",
           "button_background": "#282828",
           "button_text_color": "#ffffff"
@@ -92,16 +79,16 @@
         "settings": {
           "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/AJR_logo.png",
-          "logo_max_width": 140,
-          "mobile_logo_max_width": 100,
+          "logo_max_width": 160,
+          "mobile_logo_max_width": 120,
           "navigation_menu": "main-menu",
           "sidebar_navigation_menu": "",
           "header_layout": "logo_left_navigation_center",
           "show_icons": false,
           "reduce_desktop_padding": false,
-          "show_locale_selector": false,
+          "show_locale_selector": true,
           "show_country_selector": false,
-          "enable_transparent_header": true,
+          "enable_transparent_header": false,
           "transparent_header_text_color": "#ffffff",
           "search_menu": ""
         }
@@ -109,19 +96,19 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1de88fde-872e-435b-842d-bb52536d3001": {
+          "099dea2f-51ed-4c5f-89fb-cca5573a9916": {
             "type": "links",
             "settings": {
               "menu": "information"
             }
           },
-          "ee8d59d7-5a3b-4f7a-b840-d4047a6a9d1f": {
+          "links": {
             "type": "links",
             "settings": {
               "menu": "footer"
             }
           },
-          "c7b668f3-8b9d-48a5-a4fb-82e4453fbd1b": {
+          "371cc746-f8e4-40d5-9950-31f07634d251": {
             "type": "text",
             "settings": {
               "title": "Kontakt",
@@ -137,15 +124,15 @@
           }
         },
         "block_order": [
-          "1de88fde-872e-435b-842d-bb52536d3001",
-          "ee8d59d7-5a3b-4f7a-b840-d4047a6a9d1f",
-          "c7b668f3-8b9d-48a5-a4fb-82e4453fbd1b",
+          "099dea2f-51ed-4c5f-89fb-cca5573a9916",
+          "links",
+          "371cc746-f8e4-40d5-9950-31f07634d251",
           "social_media"
         ],
         "settings": {
-          "show_payment_icons": false,
-          "show_country_selector": false,
-          "show_locale_selector": false,
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_locale_selector": true,
           "show_cookie_bar": false,
           "cookie_bar_title": "Cookie policy",
           "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
@@ -171,7 +158,7 @@
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/all",
           "show_recommendations": true,
-          "recommendations_title": "Måske kan du også lide"
+          "recommendations_title": "You may also like"
         }
       },
       "static-text-with-icons": {
@@ -180,37 +167,37 @@
           "static-text-with-icons-0": {
             "type": "item",
             "settings": {
-              "icon": "picto-fast-delivery",
+              "icon": "picto-box",
               "custom_icon_width": 50,
-              "title": "Gratis levering",
-              "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>"
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
             }
           },
           "static-text-with-icons-1": {
             "type": "item",
             "settings": {
-              "icon": "picto-return-box",
+              "icon": "picto-phone",
               "custom_icon_width": 50,
-              "title": "30 dages returret",
-              "content": "<p>Hos AJR har du altid 30 dages fuld returret. <\/p>"
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
             }
           },
           "static-text-with-icons-2": {
             "type": "item",
             "settings": {
-              "icon": "picto-credit-card",
+              "icon": "picto-lock",
               "custom_icon_width": 50,
-              "title": "Sikker betaling",
-              "content": "<p>Hos AJR er du altid garanteret sikker betaling.<\/p>"
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.<\/p>"
             }
           },
           "static-text-with-icons-3": {
             "type": "item",
             "settings": {
-              "icon": "picto-customer-support",
+              "icon": "picto-email",
               "custom_icon_width": 50,
-              "title": "Kontakt os",
-              "content": "<p>info@ajrcollection.com eller +45 53 89 00 53.<\/p>"
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
             }
           }
         },
@@ -221,8 +208,8 @@
           "static-text-with-icons-3"
         ],
         "settings": {
-          "show_section": true,
-          "background": "#f5f5f5",
+          "show_section": false,
+          "background": "rgba(0,0,0,0)",
           "text_color": "rgba(0,0,0,0)"
         }
       },

@@ -1,6 +1,5 @@
 {% assign colorNames = product.title | split: '-' %}
-{% unless product.url contains 'gratis' %}
-   <div class="colorLinks__wrapper">
+<div class="colorLinks__wrapper">
   <div class="ProductForm__Label">Farve: {{ colorNames | last }}</div>
   <ul class="colorLinks__ul">
     <li class="colorLinks__li black">
@@ -32,6 +31,5 @@
         title="Mix color"></a>
     </li>
   </ul>
+
 </div>
-{% endunless %} 
- 

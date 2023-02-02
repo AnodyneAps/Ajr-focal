@@ -3,13 +3,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "509fd546-ffcd-4c08-a3ec-a1e19375f9bb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.product.custom_description | metafield_tag }}<\/p>"
-          }
-        },
-        "14ff966e-ddff-4306-9799-b411e77c5919": {
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b": {
           "type": "swatch_colors",
           "settings": {
             "show_colors": true
@@ -29,30 +23,49 @@
           "settings": {
           }
         },
-        "fdbdaf79-7d80-4fc6-b073-87f11cb6609e": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 0
-          }
-        },
-        "buy_buttons": {
+        "12735dc9-3907-4582-bc82-4d993f4fc873": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "atc_button_background": "#333333",
-            "atc_button_text_color": "#ffffff",
-            "buy_now_button_background": "#733e3e",
+            "atc_button_background": "#4c8168",
+            "atc_button_text_color": "#fcfcfc",
+            "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon_width": 50,
+            "content": "<p>Altid gratis ombytning<\/p>"
+          }
+        },
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon_width": 50,
+            "content": "<p>Hurtig 1-2 dages levering<\/p>"
+          }
+        },
+        "f01fc0df-89a2-4754-8dd8-7826438720c7": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-like",
+            "custom_icon_width": 50,
+            "content": "<p>Altid gratis fragt<\/p>"
           }
         }
       },
       "block_order": [
-        "509fd546-ffcd-4c08-a3ec-a1e19375f9bb",
-        "14ff966e-ddff-4306-9799-b411e77c5919",
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b",
         "variant_picker",
         "quantity_selector",
-        "fdbdaf79-7d80-4fc6-b073-87f11cb6609e",
-        "buy_buttons"
+        "12735dc9-3907-4582-bc82-4d993f4fc873",
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55",
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d",
+        "f01fc0df-89a2-4754-8dd8-7826438720c7"
       ],
       "settings": {
         "show_vendor": false,
@@ -63,11 +76,13 @@
         "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": true,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
+        "show_thumbnails_on_mobile": true,
         "desktop_thumbnails_position": "left",
-        "transition_effect": "slide"
+        "transition_effect": "slide",
+        "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
+        "show_product_counter": true
       }
     },
     "product-content": {
@@ -78,23 +93,13 @@
           "settings": {
           }
         },
-        "b0b242a2-1185-4264-9c23-c594f81ba84a": {
-          "type": "content",
+        "7e882a64-ad90-474d-84b3-d894094e16be": {
+          "type": "reviews",
+          "disabled": true,
           "settings": {
-            "title": "Levering",
-            "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>",
-            "page": ""
           }
         },
-        "4975fa06-d825-4049-912c-7002d9a334d7": {
-          "type": "content",
-          "settings": {
-            "title": "Størrelsesguide",
-            "content": "<p>Underbukserne er normale i størrelsen. Vi anbefaler derfor, at du vælger den størrelse, som du normalt bruger. Modellen er iklædt en str. M. <\/p>",
-            "page": ""
-          }
-        },
-        "aa87d4d6-d21c-431b-aca5-97c6a6109007": {
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8": {
           "type": "content",
           "settings": {
             "title": "Materialer",
@@ -102,21 +107,38 @@
             "page": ""
           }
         },
-        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f": {
+        "1eaf983b-1f4a-4669-ad70-071ab3e618c8": {
+          "type": "content",
+          "settings": {
+            "title": "Størrelsesguide",
+            "content": "",
+            "page": ""
+          }
+        },
+        "6a6d631c-d930-4476-987c-345e048e409c": {
           "type": "content",
           "settings": {
             "title": "Vaskeanvisninger",
-            "content": "<p>- Vask sammen med mørkt tøj<br\/>- Skånsom vask, max. 40 °C.<br\/>- Tørretumbling anbefales ikke<br\/>- Stryg ved lav temperatur<\/p>",
+            "content": "<p>- Vask sammen med mørkt tøj<br\/>- Skånsom vask, max. 40 °C.<br\/>- Tørretumbling anbefales ikke<br\/>- Stryg ved lav temperatur<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29": {
+          "type": "content",
+          "settings": {
+            "title": "Levering",
+            "content": "<p>Hos AJRcollection får du altid gratis levering. Standard leveringstid er 1-2 hverdage. <\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "description",
-        "b0b242a2-1185-4264-9c23-c594f81ba84a",
-        "4975fa06-d825-4049-912c-7002d9a334d7",
-        "aa87d4d6-d21c-431b-aca5-97c6a6109007",
-        "e36fee90-7f3f-43dc-8474-d5e56ab0c69f"
+        "7e882a64-ad90-474d-84b3-d894094e16be",
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8",
+        "1eaf983b-1f4a-4669-ad70-071ab3e618c8",
+        "6a6d631c-d930-4476-987c-345e048e409c",
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29"
       ],
       "settings": {
       }
@@ -130,11 +152,88 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "323810fd-28d8-440d-878d-f1d82cd646d1": {
+      "type": "faq",
+      "blocks": {
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-0": {
+          "type": "category",
+          "settings": {
+            "title": "Et par gratis AJR-underbukser"
+          }
+        },
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-1": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg få et par gratis underbukser uden at vælge abonnement?",
+            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kunbetaler fragt (39 kr.) for. Du kan altså sagtens nå at afmelde dit abonnement inden du modtager din første 3-pak AJR-underbukser. Du skal blot sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig med resten. <\/p>"
+          }
+        },
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-2": {
+          "type": "question",
+          "settings": {
+            "title": "Hvornår modtager jeg mine gratis underbukser?",
+            "answer": "<p>Du skal ikke vente længe. Vi sender din pakke, så snart vi modtager din ordre. Vores normale leveringstid er 1-2 hverdage. <\/p>"
+          }
+        },
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-3": {
+          "type": "category",
+          "settings": {
+            "title": "Abonnementet"
+          }
+        },
+        "66bf0d04-28c9-446a-a39e-9b5423634836": {
+          "type": "question",
+          "settings": {
+            "title": "Hvad indebærer et abonnement hos AJR?",
+            "answer": "<p>Et abonnement hos AJR indebærer, at du ved tilmelding modtager et par gratis AJR-underbukser i farve efter eget valg. Dem betaler du kun fragten på 39 kr. for. Efter 7 dage sender vi dig din første 3-pak AJR-underbukser. Herefter modtager du en 3-pak AJR-underbukser hver 3. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. Du er kun forpligtet til at modtage det gratis prøvepar. Du kan til enhver tid afmelde dig blot ved at sende en mail til <strong>info@ajrcollection.com<\/strong>. <\/p>"
+          }
+        },
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-4": {
+          "type": "question",
+          "settings": {
+            "title": "Er der en bindingsperioder?",
+            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding. Du forpligter dig kun til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dit abonnement ved at sende en mail til <strong>info@ajrcollection.com<\/strong>. <\/p>"
+          }
+        },
+        "fb862d94-a490-4a66-836e-29a69c91c13d": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg lave ændringer i mit abonnement undervejs?",
+            "answer": "<p>Ja, det kan du sagtens. Hvis du f.eks. ønsker at ændre størrelse, farve eller hyppighed for modtagelse af din 3-pak AJR-underbukser, så send blot en mail til <strong>info@ajrcollection.com<\/strong> med info om dine ønsker. Så sørger vi for at få til tilrettet dit abonnement, så det passer til dine behov. <\/p>"
+          }
+        },
+        "d1c2714f-f21a-4e84-ac0c-76d0fe2010f5": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har flere spørgsmål...",
+            "answer": "<p>Tøv endelig ikke med at tage fat i os, hvis du har spørgsmål. Du kan kontakte os på tlf. <strong>53 89 00 53<\/strong>. Telefonen er åben mandag-torsdag fra 10.00-16.00 og fredag fra 10.00-15.00.<\/p><p>Du kan også altid sende os en mail på<strong> info@ajrcollectiom.com<\/strong>. Vi svarer dig hurtigst muligt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-0",
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-1",
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-2",
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-3",
+        "66bf0d04-28c9-446a-a39e-9b5423634836",
+        "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-4",
+        "fb862d94-a490-4a66-836e-29a69c91c13d",
+        "d1c2714f-f21a-4e84-ac0c-76d0fe2010f5"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "product-content",
-    "product-recommendations"
+    "product-recommendations",
+    "323810fd-28d8-440d-878d-f1d82cd646d1"
   ]
 }

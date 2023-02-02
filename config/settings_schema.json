@@ -227,6 +227,13 @@
       },
       {
         "type": "color",
+        "id": "product_custom_label_3_background",
+        "label": "Custom label 3",
+        "info": "[Learn more](https:\/\/support.maestrooo.com\/article\/75-collection-displaying-custom-label)",
+        "default": "#1e316a"
+      },
+      {
+        "type": "color",
         "id": "product_in_stock_text_color",
         "label": "In stock accent",
         "default": "#168342"
