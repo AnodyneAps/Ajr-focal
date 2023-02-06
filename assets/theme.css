@@ -11976,6 +11976,9 @@ input:checked + .popover__choice-label::after,
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
+   /* Thumbnails sticky scroll added */
+    position: sticky;
+    top: 120px;
   }
 
   .product--thumbnails-left .product__media-nav {
@@ -15404,7 +15407,7 @@ align-items: center;
 gap: 6px;
 }
 .usp__wrapper .usp__item .content__wrapper p {
-    font-size: calc(var(--base-font-size) + 2px);
+    font-size: calc(var(--base-font-size));
     letter-spacing: 1px;
 }
 
@@ -15413,7 +15416,7 @@ gap: 6px;
     gap:6px;
   }
 .usp__wrapper .usp__item .content__wrapper p {
-    font-size: calc(var(--base-font-size));
+    font-size: calc(var(--base-font-size) - 2px);
     letter-spacing: 0;
 }
 .product-counter-container  p {
@@ -15422,4 +15425,16 @@ gap: 6px;
 .product-counter-container  .inner{
     font-size: calc(var(--base-font-size));
   }
+}
+.appstle_sub_widget{
+  margin-top:0 !important;
+  max-width:100% !important;
+}
+
+/* product trustpilot widget */
+.trustpilot-widget{
+  border-radius: 5px;
+  padding:10px 0;
+  background-color: #f3f3f3;
+  border: 1px solid #f9f9f9;
 }

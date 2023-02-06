@@ -38,7 +38,7 @@
           "settings": {
             "icon": "picto-return-box",
             "custom_icon_width": 50,
-            "content": "<p>Altid gratis ombytning<\/p>"
+            "content": "<p>Altid 30 dages fuld returret<\/p>"
           }
         },
         "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d": {
@@ -54,7 +54,7 @@
           "settings": {
             "icon": "picto-like",
             "custom_icon_width": 50,
-            "content": "<p>Altid gratis fragt<\/p>"
+            "content": "<p>Gratis levering ved køb over 299 kr.<\/p>"
           }
         }
       },
@@ -166,7 +166,7 @@
           "type": "question",
           "settings": {
             "title": "Kan jeg få et par gratis underbukser uden at vælge abonnement?",
-            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kunbetaler fragt (39 kr.) for. Du kan altså sagtens nå at afmelde dit abonnement inden du modtager din første 3-pak AJR-underbukser. Du skal blot sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig med resten. <\/p>"
+            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kun betaler fragt (39 kr.) for. Du kan sagtens nå at afmelde dit abonnement, inden du modtager din første 3-pak AJR-underbukser. Du skal blot sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig med resten. <\/p>"
           }
         },
         "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-2": {
@@ -207,7 +207,7 @@
           "type": "question",
           "settings": {
             "title": "Jeg har flere spørgsmål...",
-            "answer": "<p>Tøv endelig ikke med at tage fat i os, hvis du har spørgsmål. Du kan kontakte os på tlf. <strong>53 89 00 53<\/strong>. Telefonen er åben mandag-torsdag fra 10.00-16.00 og fredag fra 10.00-15.00.<\/p><p>Du kan også altid sende os en mail på<strong> info@ajrcollectiom.com<\/strong>. Vi svarer dig hurtigst muligt.<\/p>"
+            "answer": "<p>Tøv endelig ikke med at tage fat i os, hvis du har spørgsmål. Du kan kontakte os på tlf. <strong>53 89 00 53<\/strong>. Telefonen er åben mandag-torsdag fra 10.00-16.00 og fredag fra 10.00-15.00.<\/p><p>Du kan også altid sende os en mail på<strong> info@ajrcollection.com<\/strong>. Vi svarer dig hurtigst muligt.<\/p>"
           }
         }
       },

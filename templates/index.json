@@ -30,7 +30,7 @@
             "icon": "picto-fast-delivery",
             "custom_icon_width": 50,
             "title": "Gratis levering",
-            "content": "<p>Altid gratis 1-2 dages levering.<\/p>"
+            "content": "<p>1-2 dages leveringtid. Gratis levering ved køb over 299 kr.<\/p>"
           }
         },
         "item-2": {
@@ -166,7 +166,7 @@
         "right_icon_two_title": "Slidstærke materialer og ekstra blød elastik",
         "right_icon_two_content": "<p>Fremstillet i 94 % bomuldsstretch, og 6 % spandex for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
         "threed_button_text": "Køb her",
-        "threed_button_link": "shopify:\/\/collections",
+        "threed_button_link": "shopify:\/\/collections\/all",
         "background_type": "boxed",
         "text_alignment": "right",
         "right_text_alignment": "left",
@@ -178,7 +178,7 @@
         "background_text_color": "#282828",
         "text_background": "rgba(0,0,0,0)",
         "text_color": "#282828",
-        "button_background": "#f16622",
+        "button_background": "#4c8168",
         "button_text_color": "#ffffff"
       }
     },
