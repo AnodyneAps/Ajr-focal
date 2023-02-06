@@ -82,7 +82,8 @@
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide",
         "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
-        "show_product_counter": true
+        "show_product_counter": true,
+        "show_product_trustpilot_widget": true
       }
     },
     "product-content": {
@@ -228,12 +229,33 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "167567262859be62b8": {
+      "type": "apps",
+      "blocks": {
+        "25a528fe-80b3-4ffa-951c-b2651e335c39": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "25a528fe-80b3-4ffa-951c-b2651e335c39"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
     "main",
     "product-content",
     "product-recommendations",
-    "323810fd-28d8-440d-878d-f1d82cd646d1"
+    "323810fd-28d8-440d-878d-f1d82cd646d1",
+    "167567262859be62b8"
   ]
 }

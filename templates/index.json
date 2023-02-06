@@ -216,32 +216,31 @@
     },
     "testimonials": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "content": "Testimonial super title one",
-            "content_subtext": "Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store.",
-            "author": "John M.",
+            "content": "Best flexibility",
+            "content_subtext": "The first time I used the AJR it felt like I wasn't even wearing any underwear. They are so nice and have a great design and I love using them in my busy days. The comfort, fit and the unique cotton fabric just make them so nice to wear while having the best flexibility stretch when I move.",
+            "author": "Tarek Zayat, Actor SHORTA - Viaplay Serie",
             "author_image": "shopify:\/\/shop_images\/Billede13.jpg"
           }
         },
         "3c056dd2-e1f3-478b-a29d-23006ec8b22f": {
           "type": "testimonial",
           "settings": {
-            "content": "Testimonial super title two",
-            "content_subtext": "Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store. Write some content about what they are saying about your store.",
-            "author": "Smith q.",
-            "author_image": "shopify:\/\/shop_images\/8ED38D8F-DA08-4E05-8CD6-79D5250FCB29.jpg"
+            "content": "Also perfect for sports",
+            "content_subtext": "When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing.",
+            "author": "Nikolai Baden, Vitesse - latest a Juventus player",
+            "author_image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg"
           }
         },
         "c38b367c-5363-4961-88e1-7f77e427cb44": {
           "type": "testimonial",
           "settings": {
-            "content": "Testimonial super title three",
-            "content_subtext": "Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size. Section size will adjust to the tallest content. Try to keep each testimonial a similar size.",
-            "author": "Barak Anton w.",
+            "content": "Very comfortable",
+            "content_subtext": "When I train and play matches I wear AJR underwear. They are very comfortable on and off the pitch. I'm happy to be a part of AJRcollection®.",
+            "author": "Gift Links, AGF - Superliga",
             "author_image": "shopify:\/\/shop_images\/Billede1_a80a7d63-1ff8-4437-b47c-c7c6236e9f72.jpg"
           }
         }
@@ -286,6 +285,26 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "1675672760d3f3c56b": {
+      "type": "apps",
+      "blocks": {
+        "aba43d28-143a-4a4d-98d2-7709eece4087": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "aba43d28-143a-4a4d-98d2-7709eece4087"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
@@ -296,6 +315,7 @@
     "image-with-text",
     "testimonials",
     "5c437ad2-db5c-4146-a312-1c6b82e9abe8",
-    "newsletter"
+    "newsletter",
+    "1675672760d3f3c56b"
   ]
 }

@@ -2540,8 +2540,13 @@ p + .button-group,
 .dots-nav {
   display: flex;
   margin: -6px;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 741px) {
+  .dots-nav {
+    justify-content: flex-start;
+  }
 }
 
 .dots-nav--centered {
@@ -14447,6 +14452,7 @@ shopify-payment-terms {
   position: relative;
   height: 639px;
   padding-top: 39px;
+  text-align: center;
 }
 
 .testimonial {
@@ -14484,13 +14490,9 @@ padding-left: 20px;
 }
 
 .testimonial__author {
-  margin-top: 32px;
   color: rgba(var(--primary-button-background), 0.8);
-  font-size: var(--heading-h5-font-size);
-}
-
-.testimonial-list__nav {
-  margin-top: 40px;
+  padding-bottom: 24px;
+  
 }
 
 @media screen and (min-width: 741px) {
@@ -14507,7 +14509,8 @@ padding-left: 20px;
     margin-top: 12px;
   }
   .testimonial-list__wrapper{
-  height: 539px;
+  height: 369px;
+  text-align: left;
     }
   .testimonial{
     flex-direction: row;
@@ -15437,4 +15440,9 @@ gap: 6px;
   padding:10px 0;
   background-color: #f3f3f3;
   border: 1px solid #f9f9f9;
+}
+#insta-feed h2{
+font-family: var(--heading-font-family);
+text-transform: uppercase;
+font-size: 26px;
 }
