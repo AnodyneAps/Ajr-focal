@@ -1,5 +1,17 @@
 {
   "sections": {
+    "aea109f8-5ff7-49fa-84e9-06f58359ec1a": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "0c631ef2-00cb-46f0-ab33-886ed57e7419": {
       "type": "hero-custom-vedio",
       "settings": {
@@ -12,10 +24,10 @@
         "video_title": "",
         "svg_selector": "vendor__name",
         "text_size": "medium",
-        "text_description": "<p>Prøv de mest komfortable og fleksible underbukser. Bestil et prøvepar for 0 kr. Du betaler kun fragten på 39 kr.<\/p>",
+        "text_description": "<p>De mest komfortable og fleksible underbukser du nogensinde har prøvet - Med garanti!<\/p>",
         "text_description_size": "medium",
-        "button_label": "PRØV NU FOR KUN 39 KR",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Tjek dem ud her",
+        "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
         "second_button_label": "",
         "second_button_link": "",
         "show_scrolldown": false
@@ -70,6 +82,18 @@
       "settings": {
         "background": "#f7f7f7",
         "text_color": "#282828"
+      }
+    },
+    "70ceb925-540f-42b2-ba91-3d4e627f1313": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "featured-collections": {
@@ -308,8 +332,10 @@
     }
   },
   "order": [
+    "aea109f8-5ff7-49fa-84e9-06f58359ec1a",
     "0c631ef2-00cb-46f0-ab33-886ed57e7419",
     "text-with-icons",
+    "70ceb925-540f-42b2-ba91-3d4e627f1313",
     "featured-collections",
     "972c85c1-f571-40f1-899c-d1e660f5cfc3",
     "image-with-text",

@@ -8262,10 +8262,24 @@ input:checked + .popover__choice-label::after,
 }
 
 /* Used for secondary info such as variant title, subscription plan, attributes... */
-
-.line-item__quantity {
+/* These styles commented out because I have style the cart trush icon here...if this style affect others then please remove the code and set to original */
+/* .line-item__quantity {
   display: block;
   margin-top: 8px;
+}
+.line-item__discount-list + .line-item__quantity {
+  margin-top: 12px;
+}
+[dir="ltr"] .line-item__remove-button {
+  margin-left: 12px;
+} */
+
+.line-item__quantity {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+  
 }
 
 .line-item__discount-list + .line-item__quantity {
@@ -8274,8 +8288,12 @@ input:checked + .popover__choice-label::after,
 
 [dir="ltr"] .line-item__remove-button {
   margin-left: 12px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  width:39px;
+  height: 39px;
+  border-radius: 20px;
 }
-
 [dir="rtl"] .line-item__remove-button {
   margin-right: 12px;
 }
@@ -9451,10 +9469,13 @@ input:checked + .popover__choice-label::after,
   }
 }
 .header {
+  position:relative;
   display: block;
   background: rgb(var(--header-background));
   color: rgb(var(--header-text-color));
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  isolation: isolate;
+  z-index:50;
 }
 
 .header--bordered {
@@ -11982,8 +12003,9 @@ input:checked + .popover__choice-label::after,
     flex-direction: row-reverse;
     align-items: flex-start;
    /* Thumbnails sticky scroll added */
-    position: sticky;
-    top: 120px;
+/*     position: sticky;
+    top: 120px; 
+    z-index: 5; */
   }
 
   .product--thumbnails-left .product__media-nav {

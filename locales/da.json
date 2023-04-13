@@ -446,9 +446,8 @@
       "subscriptions": {
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "one": "Du modtager et par gratis underbukser (betal kun fragten). Herefter er du tilmeldt vores abonnementsløsning. Vi sender 3 par underbukser om 7 dage og igen hver 3. måned. Du betaler 299,- pr. 3-pak (ingen binding - du kan til enhver tid afmelde dig)"
-          },
-          "following_cycles": "- pr. 3-pak (ingen binding - du kan til enhver tid afmelde dig)"
+            "one": "Du tilmelder dig vores abonnementsløsning. Vi sender 3 par underbukser hver 3. måned. Du betaler 299,- nu (ingen binding - du kan til enhver tid afmelde dig) og"
+          }
         }
       }
     }

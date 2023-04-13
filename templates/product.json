@@ -1,5 +1,17 @@
 {
   "sections": {
+    "4e24a038-679d-40b7-b05f-b3f0a8932283": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -79,11 +91,23 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "show_thumbnails_on_mobile": true,
-        "desktop_thumbnails_position": "left",
+        "desktop_thumbnails_position": "bottom",
         "transition_effect": "slide",
         "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
         "show_product_counter": true,
         "show_product_trustpilot_widget": true
+      }
+    },
+    "f305822e-c142-40e1-a3dd-902c9a3f7e21": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "product-content": {
@@ -167,7 +191,7 @@
           "type": "question",
           "settings": {
             "title": "Kan jeg få et par gratis underbukser uden at vælge abonnement?",
-            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kun betaler fragt (39 kr.) for. Du kan sagtens nå at afmelde dit abonnement, inden du modtager din første 3-pak AJR-underbukser. Du skal blot sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig med resten. <\/p>"
+            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kun betaler fragt (39 kr.) for. Du kan sagtens nå at afmelde dit abonnement, inden du modtager din første 3-pak AJR-underbukser. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne. <\/p>"
           }
         },
         "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-2": {
@@ -187,14 +211,14 @@
           "type": "question",
           "settings": {
             "title": "Hvad indebærer et abonnement hos AJR?",
-            "answer": "<p>Et abonnement hos AJR indebærer, at du ved tilmelding modtager et par gratis AJR-underbukser i farve efter eget valg. Dem betaler du kun fragten på 39 kr. for. Efter 7 dage sender vi dig din første 3-pak AJR-underbukser. Herefter modtager du en 3-pak AJR-underbukser hver 3. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. Du er kun forpligtet til at modtage det gratis prøvepar. Du kan til enhver tid afmelde dig blot ved at sende en mail til <strong>info@ajrcollection.com<\/strong>. <\/p>"
+            "answer": "<p>Et abonnement hos AJR indebærer, at du ved tilmelding modtager et par gratis AJR-underbukser i farve efter eget valg. Dem betaler du kun fragten på 39 kr. for. Efter 7 dage sender vi dig din første 3-pak AJR-underbukser. Herefter modtager du en 3-pak AJR-underbukser hver 3. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. Du er kun forpligtet til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
           }
         },
         "template--16658001101045__323810fd-28d8-440d-878d-f1d82cd646d1-16753330062236e8cc-4": {
           "type": "question",
           "settings": {
             "title": "Er der en bindingsperioder?",
-            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding. Du forpligter dig kun til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dit abonnement ved at sende en mail til <strong>info@ajrcollection.com<\/strong>. <\/p>"
+            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding. Du forpligter dig kun til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
           }
         },
         "fb862d94-a490-4a66-836e-29a69c91c13d": {
@@ -252,7 +276,9 @@
     }
   },
   "order": [
+    "4e24a038-679d-40b7-b05f-b3f0a8932283",
     "main",
+    "f305822e-c142-40e1-a3dd-902c9a3f7e21",
     "product-content",
     "product-recommendations",
     "323810fd-28d8-440d-878d-f1d82cd646d1",

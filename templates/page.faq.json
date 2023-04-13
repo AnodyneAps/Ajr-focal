@@ -3,28 +3,130 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
       }
     },
     "faq": {
       "type": "faq",
       "blocks": {
-        "category-1": {
+        "e2fd04e2-32a2-4613-b098-e6eda16bce25": {
           "type": "category",
           "settings": {
-            "title": "Shipping"
+            "title": "Produkt"
           }
         },
-        "question-1": {
+        "2d9accc5-e38d-4795-b2f5-f64b9d9a114c": {
           "type": "question",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Hvorfor skal jeg vælge AJR-underbukser?",
+            "answer": "<p>AJR-underbukser er fremstillet fleksibelt stof, der gør dem meget behagelige og fleksible at have på. Den ekstra benlængde gør dem gode at bruge til både hverdag og sport, fordi de ikke ruller op, når man bevæger sig. AJR-underbukser er fremstillet i 94 % bomuldsstretch, og 6 % spandex for ekstra komfort. Desuden har de en blød elastik i taljen med AJR-logo.<\/p>"
+          }
+        },
+        "3a156e70-5fd2-41e3-ac76-0c764bb81136": {
+          "type": "question",
+          "settings": {
+            "title": "Hvilken størrelse, skal jeg vælge?",
+            "answer": "<p>Du kan sagtens vælge din normale størrelse, men AJR-underbukser er en smule store i størrelsen, så hvis du svinger mellem to størrelser, anbefaler vi, at du vælger den mindste.<\/p>"
+          }
+        },
+        "4c747078-9ae1-40ef-8bca-a507c6155321": {
+          "type": "category",
+          "settings": {
+            "title": "Levering og returnering"
+          }
+        },
+        "be5e229f-c9ea-4845-aecc-773418f19c72": {
+          "type": "question",
+          "settings": {
+            "title": "Hvornår modtager jeg min ordre?",
+            "answer": "<p>Hos AJRcollection gør vi vores ypperste for at få sendt din pakke afsted samme dag, som du lægger din bestilling. Du kan som standard forvente en leveringstid på 1-2 hverdage.<\/p>"
+          }
+        },
+        "529ae1dc-f1f1-41f1-81fa-9dca7fab29ac": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har endnu ikke modtaget min ordre - hvad skal jeg gøre?",
+            "answer": "<p>Hvis der er gået tre arbejdsdage siden du modtog bekræftelsen på, at din ordre er sendt, og du stadig ikke har modtaget den, bedes du kontakte os på <strong>info@ajrcollection.com<\/strong>, så vi kan tracke din pakke. I mange tilfælde ligger din pakke klar på det lokale posthus, men du er muligvis ikke blevet informeret herom.<\/p>"
+          }
+        },
+        "e26dde86-030f-4af5-b954-e6d7c29645dc": {
+          "type": "category",
+          "settings": {
+            "title": "Gratis AJR-underbukser"
+          }
+        },
+        "8a87efe8-b282-4bbc-a1fb-26799f294c29": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg få et par gratis underbukser uden at vælge abonnement?",
+            "answer": "<p>Du skal vælge et medlemskab for at modtage et par gratis AJR-underbukser. Men vi ønsker kun glade medlemmer, så du er kun forpligtet til at modtage det gratis prøvepar, som du kun betaler fragt (39 kr.) for. Du kan sagtens nå at afmelde dit abonnement, inden du modtager din første 3-pak AJR-underbukser. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne. <\/p>"
+          }
+        },
+        "b64f067a-cbe5-4194-b8b0-3c1dc4c89857": {
+          "type": "question",
+          "settings": {
+            "title": "Hvornår modtager jeg mine gratis underbukser?",
+            "answer": "<p>Du skal ikke vente længe. Vi sender din pakke, så snart vi modtager din ordre. Vores normale leveringstid er 1-2 hverdage. <\/p>"
+          }
+        },
+        "8ff62975-ff77-411b-838d-271777f50eed": {
+          "type": "category",
+          "settings": {
+            "title": "Abonnement"
+          }
+        },
+        "ec3fd3e7-83a7-49a1-81b9-170171b46378": {
+          "type": "question",
+          "settings": {
+            "title": "Hvad indebærer et abonnement hos AJR?",
+            "answer": "<p>Et abonnement hos AJR indebærer, at du ved tilmelding modtager et par gratis AJR-underbukser i farve efter eget valg. Dem betaler du kun fragten på 39 kr. for. Efter 7 dage sender vi dig din første 3-pak AJR-underbukser. Herefter modtager du en 3-pak AJR-underbukser hver 3. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. Du er kun forpligtet til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
+          }
+        },
+        "048a6926-8409-4cc2-a536-71b0f06c3838": {
+          "type": "question",
+          "settings": {
+            "title": "Er der en bindingsperioder?",
+            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding. Du forpligter dig kun til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
+          }
+        },
+        "981762b1-5d35-41e2-849d-f6c333f6ddcd": {
+          "type": "question",
+          "settings": {
+            "title": "Kan jeg lave ændringer i mit abonnement undervejs?",
+            "answer": "<p>Ja, det kan du sagtens. Hvis du f.eks. ønsker at ændre størrelse, farve eller hyppighed for modtagelse af din 3-pak AJR-underbukser, så send blot en mail til <strong>info@ajrcollection.com<\/strong> med info om dine ønsker. Så sørger vi for at få til tilrettet dit abonnement, så det passer til dine behov. <\/p>"
+          }
+        },
+        "20a20684-5015-4f4b-b13d-7dbc0ced24f1": {
+          "type": "question",
+          "settings": {
+            "title": "Jeg har flere spørgsmål...",
+            "answer": "<p>Tøv endelig ikke med at tage fat i os, hvis du har spørgsmål. Du kan kontakte os på tlf. <strong>53 89 00 53<\/strong>. Telefonen er åben mandag-torsdag fra 10.00-16.00 og fredag fra 10.00-15.00.<\/p><p>Du kan også altid sende os en mail på<strong> info@ajrcollection.com<\/strong>. Vi svarer dig hurtigst muligt.<\/p>"
           }
         }
       },
+      "block_order": [
+        "e2fd04e2-32a2-4613-b098-e6eda16bce25",
+        "2d9accc5-e38d-4795-b2f5-f64b9d9a114c",
+        "3a156e70-5fd2-41e3-ac76-0c764bb81136",
+        "4c747078-9ae1-40ef-8bca-a507c6155321",
+        "be5e229f-c9ea-4845-aecc-773418f19c72",
+        "529ae1dc-f1f1-41f1-81fa-9dca7fab29ac",
+        "e26dde86-030f-4af5-b954-e6d7c29645dc",
+        "8a87efe8-b282-4bbc-a1fb-26799f294c29",
+        "b64f067a-cbe5-4194-b8b0-3c1dc4c89857",
+        "8ff62975-ff77-411b-838d-271777f50eed",
+        "ec3fd3e7-83a7-49a1-81b9-170171b46378",
+        "048a6926-8409-4cc2-a536-71b0f06c3838",
+        "981762b1-5d35-41e2-849d-f6c333f6ddcd",
+        "20a20684-5015-4f4b-b13d-7dbc0ced24f1"
+      ],
       "settings": {
         "show_navigation": true,
-        "title": ""
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },

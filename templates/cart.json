@@ -1,5 +1,17 @@
 {
   "sections": {
+    "c5c37019-a8c8-43ea-bdf3-6250bc060c4b": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -11,6 +23,7 @@
         "order_note": {
           "type": "order_note",
           "settings": {
+            "open_by_default": false
           }
         }
       },
@@ -19,16 +32,35 @@
         "order_note"
       ],
       "settings": {
+        "show_payment_methods": true,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "United States",
+        "empty_button_link": "shopify:\/\/collections\/all"
       }
     },
     "cart-recommendations": {
       "type": "cart-recommendations",
       "settings": {
+        "title": "Måske du også kan lide"
+      }
+    },
+    "e4185d86-49aa-4d35-bb0d-a870ae069416": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"61bf182df1898518f3cfb944\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/ajrcollection.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
+    "c5c37019-a8c8-43ea-bdf3-6250bc060c4b",
     "main",
-    "cart-recommendations"
+    "cart-recommendations",
+    "e4185d86-49aa-4d35-bb0d-a870ae069416"
   ]
 }
