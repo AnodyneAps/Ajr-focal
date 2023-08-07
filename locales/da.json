@@ -85,7 +85,7 @@
       "title": "Kurv",
       "empty": "Din kurv er tom",
       "start_shopping": "Shop nu",
-      "free_shipping": "Hurtig levering til pakkeshop",
+      "free_shipping": "Du har opnået fri fragt!",
       "free_shipping_remaining_html": "",
       "free": "",
       "no_more_stock": "",
@@ -446,7 +446,7 @@
       "subscriptions": {
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "one": "Du tilmelder dig vores abonnementsløsning. Vi sender 3 par underbukser hver 3. måned. Du betaler 299,- nu (ingen binding - du kan til enhver tid afmelde dig) og"
+            "one": "Du tilmelder dig vores abonnementsløsning. Vi sender 3 par underbukser hver 2. måned. Du betaler 299,- nu (ingen binding - du kan til enhver tid afmelde dig) og"
           }
         }
       }

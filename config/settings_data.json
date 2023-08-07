@@ -60,7 +60,29 @@
           "84a66898-6f13-468b-9b3d-f2582eab4702": {
             "type": "message",
             "settings": {
-              "text": "GRATIS FRAGT OG 30 DAGES FULD RETURRET",
+              "text": "30 dages fuld returret",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "58bc80b8-b352-4e40-a150-da03fe1d6601": {
+            "type": "message",
+            "settings": {
+              "text": "100% tilfredshedsgaranti",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "0ec6b772-5661-4853-a19d-68d6f91cf9d6": {
+            "type": "message",
+            "settings": {
+              "text": "Gratis ombytning",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -70,13 +92,15 @@
           }
         },
         "block_order": [
-          "84a66898-6f13-468b-9b3d-f2582eab4702"
+          "84a66898-6f13-468b-9b3d-f2582eab4702",
+          "58bc80b8-b352-4e40-a150-da03fe1d6601",
+          "0ec6b772-5661-4853-a19d-68d6f91cf9d6"
         ],
         "settings": {
           "announcement_bar_position": "non_sticky",
           "announcement_text_size": "large",
           "autoplay": true,
-          "cycle_speed": 5,
+          "cycle_speed": 3,
           "background": "#4c8168",
           "text_color": "#ffffff",
           "button_background": "#282828",
@@ -121,7 +145,7 @@
             "type": "text",
             "settings": {
               "title": "Kontakt",
-              "content": "<p><strong>Tlf:<\/strong> +45 53 89 00 53<\/p><p><strong>E-mail:<\/strong> info@ajrcollection.com<\/p><p><strong>Man-tors:<\/strong> 10.00-16.00<\/p><p><strong>Fre:<\/strong> 10.00-15.00<br\/><br\/>Vi bestræber os på at svare inden for 24 timer på hverdage.<\/p>"
+              "content": "<p><strong>Tlf:<\/strong> +45 53 89 00 53<\/p><p><strong>E-mail:<\/strong> info@ajrcollection.com<\/p><p><strong>Man-tors:<\/strong> 10.00-16.00<\/p><p><strong>Fre:<\/strong> 10.00-15.00<br\/><br\/>Vi bestræber os på at svare inden for 24 timer på hverdage.<\/p><p>CVR: 42207551<\/p>"
             }
           },
           "social_media": {
@@ -167,7 +191,7 @@
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/all",
           "show_recommendations": true,
-          "recommendations_title": "You may also like"
+          "recommendations_title": "Måske kan du også lide"
         }
       },
       "static-text-with-icons": {

@@ -52,6 +52,7 @@
         },
         "e26dde86-030f-4af5-b954-e6d7c29645dc": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "title": "Gratis AJR-underbukser"
           }
@@ -80,14 +81,14 @@
           "type": "question",
           "settings": {
             "title": "Hvad indebærer et abonnement hos AJR?",
-            "answer": "<p>Et abonnement hos AJR indebærer, at du ved tilmelding modtager et par gratis AJR-underbukser i farve efter eget valg. Dem betaler du kun fragten på 39 kr. for. Efter 7 dage sender vi dig din første 3-pak AJR-underbukser. Herefter modtager du en 3-pak AJR-underbukser hver 3. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. Du er kun forpligtet til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
+            "answer": "<p>Et abonnement hos AJR indebærer, at du ved bestilling modtager 3 par underbukser i den valgte farve. Herefter modtager du en 3-pak AJR-underbukser hver 2. måned. Du betaler kun 299,- pr. 3-pak (normaltpris er 399 kr.). <\/p><p>Der er ingen binding. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
           }
         },
         "048a6926-8409-4cc2-a536-71b0f06c3838": {
           "type": "question",
           "settings": {
             "title": "Er der en bindingsperioder?",
-            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding. Du forpligter dig kun til at modtage det gratis prøvepar. <\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
+            "answer": "<p>Nej, vores abonnementsløsning er helt uden binding.<\/p><p>Du kan til enhver tid afmelde dig. Du kan nemt selv gøre det via et tilsendt link. Du kan også altid sende en mail til <strong>info@ajrcollection.com<\/strong>, så hjælper vi dig gerne.<\/p>"
           }
         },
         "981762b1-5d35-41e2-849d-f6c333f6ddcd": {
